@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <script 
-        defer 
-        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js">
-    </script>
+    <title>Butcher Shop</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+      <link rel="stylesheet" href="css/global.css">
 </head>
-<body>
-    
-</body>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar--container">
+                    <i class="fa-solid fa-egg"></i>
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                    <i class="fa-solid fa-bacon"></i>
+                    <h3 id="navbar--title">KJØTTBUTIKK</h3>
+                </div>
+                        
+                <div class="navbar__link--container">
+                    <a href="side1.html">
+                    <i class="fa-solid fa-house"></i>
+                    Home</a>
+                </div>
+            </nav>
+        </header>
+                
+        <main>
+            <h3>Handlekurv</h3>
+            <section class="products--table" id="cart--output">
+
+            </section>
+            <button type="button" id="product--removeAll">Slett Handlekurv</button>
+        </main>
+    </body>
 </html>
