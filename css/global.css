@@ -1,5 +1,37 @@
 @import "./streng-reset.css";
 @import "./normalize.css";
 
+nav {
+    background-color: #DC143C;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+}
 
+.fa-egg, .fa-drumstick-bite, .fa-bacon {
+    padding: 10%;
+    height: 30px;
+}
 
+.navbar--container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 11%;
+    height: 100%;
+}
+
+.navbar__link--container{
+    padding:10px;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+     text-decoration: none;
+     color:white;
+     text-align: center;
+}

@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butcher Shop</title>
+    <script defer src="./scripts/side1.js" type="module"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
-    <script defer src="scripts/modules/products.js" type="module"></script>
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/side1.css">
-</head>
-    <body>
-        <header>
-            <nav>
-                <div class="navbar--container">
-                    <i class="fa-solid fa-egg"></i>
-                    <h3 id="navbar--title">Kjøttbutikk</h3>
-                </div>
-
-                <div class="navbar__link--container">
-                    <a href="side1.html">HOME</a>
-                    <a href="side2.html">CART</a>
-                </div>
-            </nav>
-
-            <main>
-                <section class="products--grid" id="products--output"></section>
-            </main>
-        </header>
-    </body>
+        </head>
+            <body>
+                    <header>
+                        <nav>
+                            <div class="navbar--container">
+                                <i class="fa-solid fa-egg"></i>
+                                <i class="fa-solid fa-drumstick-bite"></i>
+                                <i class="fa-solid fa-bacon"></i>
+                                <h3 id="navbar--title">KJØTTBUTIKK</h3>
+                            </div>
+                        
+                            <div class="navbar__link--container">
+                                <a href="side1.html">
+                                    <i class="fa-solid fa-house"></i>
+                                    Home</a>
+                                <a href="side2.html">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Cart</a>
+                            </div>
+                        </nav>
+                    </header>
+                
+                    <main>
+                        <section class="products-grid" id="products--output">
+                        </section>
+                    </main>
+            </body>
 </html>
