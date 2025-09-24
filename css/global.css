@@ -12,7 +12,7 @@ nav {
 }
 
 .fa-egg, .fa-drumstick-bite, .fa-bacon {
-    padding: 10%;
+    padding: 5%;
     height: 30px;
 }
 
@@ -34,4 +34,8 @@ a {
      text-decoration: none;
      color:white;
      text-align: center;
+}
+
+#navbar--title{
+    font-weight: bold;
 }
