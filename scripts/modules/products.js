@@ -60,11 +60,49 @@ const ProductModule = (
         
         const getAllProducts = () => products;
 
+        const addProductLocalStorage = (product) => {
+            const productArray = JSON.parse(localStorage.getItem("products")) || [];
+
+            let filterArrayId = productArray.filter(item => item.id === product.id)
+
+            if (filterArrayId.lenght > 0){
+                filterArrayId[0].amount += 1;
+                filterArrayId[0].price = product.price * filterArrayId[0].amount;
+            }
+
+            else {
+                productArray.push({
+                    ...product,
+                    amount: 1,
+                })
+            }
+            localStorage.setItem("products", JSON.stringify(productArray))
+        };
+
+        const getArrayLocalStorage = () => {
+            const productArray = JSON.parse(localStorage.getItem("products"));
+            return productArray;
+        }
+
+
+        const isExistingProduct = () => {
+            const getArray = localStorage.getItem("products") === null? false : true
+            return getArray;
+        }
+
+        const clearLocalStorage = () => {
+            localStorage.clear("products");
+        }
+
         return {
-            getAllProducts
+            getAllProducts,
+            addProductLocalStorage,
+            getArrayLocalStorage,
+            isExistingProduct,
+            clearLocalStorage
         }
 
 
 })();
 
-export const {getAllProducts} = ProductModule;
+export const {getAllProducts, addProductLocalStorage, getArrayLocalStorage, isExistingProduct, clearLocalStorage} = ProductModule;
