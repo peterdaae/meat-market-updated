@@ -1,2 +1,51 @@
-@import "./streng-reset.css";
-@import "./normalize.css";
+.table{
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.table th, .table td {
+    border: 2px solid lightslategrey;
+}
+
+.table th{
+    font-weight: bold;
+}
+
+.responsiveTableImage{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+#cart--title{
+    background-color: lightgray;
+    font-size: xx-large;
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+}
+
+.checkout--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+#cart--clear{
+    text-align: center;
+    color: white;
+    background: #930000;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;     
+    padding: 5px;  
+}
+
+#sum--text{
+    padding: 15px;
+    
+}

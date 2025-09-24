@@ -2,8 +2,10 @@ import {getArrayLocalStorage, isExistingProduct, clearLocalStorage} from "./modu
 
 const outputCart = document.getElementById("cart--output");
 const buttonRemove = document.getElementById("cart--clear");
+const outputSum = document.getElementById("sum--text");
 
 const displayOutput = () => {
+    let sum = 0;
     if (isExistingProduct()) {
         let cart = getArrayLocalStorage();
         let txtHTML = `
@@ -30,15 +32,19 @@ const displayOutput = () => {
                 <td>${product.amount}</td>
             </tr>
             `;
+            sum += product.price;
+            
         });
         txtHTML += `
             </tbody>
         </table>
         `
+        outputSum.innerHTML = `Totalt : ${sum} ,-`
         outputCart.innerHTML = txtHTML;
     }
     else {
         outputCart.innerHTML = "Handlekurv tom";
+        outputSum.innerHTML = "-"
     }
 }
 

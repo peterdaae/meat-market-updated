@@ -84,7 +84,6 @@ const ProductModule = (
             return productArray;
         }
 
-
         const isExistingProduct = () => {
             const getArray = localStorage.getItem("products") === null? false : true
             return getArray;
@@ -101,7 +100,6 @@ const ProductModule = (
             isExistingProduct,
             clearLocalStorage
         }
-
 
 })();
 
