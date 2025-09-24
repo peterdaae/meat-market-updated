@@ -65,7 +65,7 @@ const ProductModule = (
 
             let filterArrayId = productArray.filter(item => item.id === product.id)
 
-            if (filterArrayId.lenght > 0){
+            if (filterArrayId.length > 0){
                 filterArrayId[0].amount += 1;
                 filterArrayId[0].price = product.price * filterArrayId[0].amount;
             }
