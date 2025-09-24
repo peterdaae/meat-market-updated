@@ -2,7 +2,7 @@
 @import "./normalize.css";
 
 nav {
-    background-color: #DC143C;;
+    background-color: #DC143C;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
