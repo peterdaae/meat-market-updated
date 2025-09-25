@@ -15,7 +15,7 @@
   border-radius: 4px;
   font-weight: 500;
   font-size: 14px;     
-  padding: 5px;  
+  padding: 5px;
 }
 
 .product--add:hover{
@@ -32,7 +32,7 @@
 
 .title--product{
   border-radius: 4px;
-  padding: 10px;
+  padding: 15px;
   font-size:large;
   font-weight: bold;
 }
@@ -41,9 +41,7 @@
   width:300px;
   height: 300px;
   object-fit: contain;
-  
 }
-
 
 /*Phone*/
 .col-12{

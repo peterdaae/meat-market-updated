@@ -16,9 +16,10 @@ const displayOutput = (products) => {
                 
                 <div class="product-content">
                     <h3 class="title--product">${product.name}</h3>
-                    <span id="price">Pris: ${product.price}</span>
+                    <span id="price">Pris: ${product.price} ,-</span>
                     <button type="button" class="product--add">Add to cart</button>
                 </div>
+                
 
             </article>
 `;
