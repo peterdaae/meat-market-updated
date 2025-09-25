@@ -1,0 +1,29 @@
+Arbeidskrav solution provided by Peter Daae
+
+Feedback :
+
+What is good about the solution?
+
+    1. Correct indentation use
+    2. Good coding structure
+    3. Good and understandable use of fontawesome
+    4. Global css used for both pages
+    5. Good function having a total amount and the elements of the cart not repeating themselves.
+    6. 
+    7. 
+    8. importing functions only from module is good
+    9. 
+    10. 
+
+What can be improved about the solution?
+
+    1. Variable names can be a bit confusing, displayOutput/displayProducts for example
+    2. Poor lack of separation between HTML elements and JS created HTML elements
+    3. Styling might need a bit more thought
+    4. Semicolons are used variably
+    5. 
+    6. 
+    7. 
+    8. 
+    9. 
+    10. 
