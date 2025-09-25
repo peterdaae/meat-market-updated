@@ -11,7 +11,7 @@
   cursor: pointer;
   text-align: center;
   color: white;
-  background: #008060;
+  background: #00a178;
   border-radius: 4px;
   font-weight: 500;
   font-size: 14px;     
@@ -32,7 +32,7 @@
 
 .title--product{
   border-radius: 4px;
-  padding: 5px;
+  padding: 10px;
   font-size:large;
   font-weight: bold;
 }
@@ -41,7 +41,7 @@
   width:300px;
   height: 300px;
   object-fit: contain;
-  border: 1px solid gainsboro;
+  
 }
 
 
@@ -52,6 +52,8 @@
   justify-content: space-between;
   align-items: center;
   grid-column: auto / span 12;
+  border: 1px solid gainsboro;
+  padding: 5px;
 }
 
 /*Tablet*/

@@ -21,7 +21,7 @@ What can be improved about the solution?
     2. Poor lack of separation between HTML elements and JS created HTML elements
     3. Styling might need a bit more thought
     4. Semicolons are used variably
-    5. 
+    5. Mer "space" mellom navn og pris/kjøp
     6. 
     7. 
     8. 
